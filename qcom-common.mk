@@ -59,8 +59,7 @@ PRODUCT_PACKAGES += \
 # Motorola
 PRODUCT_PACKAGES += \
     aplogd \
-    modemlog \
-    batt_health
+    modemlog
 
 # Misc
 PRODUCT_PACKAGES += \
@@ -86,6 +85,17 @@ PRODUCT_PACKAGES += \
 # Misc
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory
+
+# Crda
+PRODUCT_PACKAGES += \
+    crda \
+    linville.key.pub.pem \
+    regulatory.bin
+
+# Qcom SoftAP
+PRODUCT_PACKAGES += \
+    libQWiFiSoftApCfg \
+    libqsap_sdk
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
