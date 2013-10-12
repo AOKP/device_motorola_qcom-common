@@ -254,8 +254,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true \
     ro.use_data_netmgrd=true \
     ro.ril.transmitpower=true \
-    persist.radio.apm_sim_not_pwdn=1 \
-    persist.radio.call_type=1 \
     ro.config.vc_call_vol_steps=7
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
