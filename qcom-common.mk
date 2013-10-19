@@ -250,6 +250,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true \
     ro.use_data_netmgrd=true \
     ro.ril.transmitpower=true \
-    ro.config.vc_call_vol_steps=7
+    ro.config.vc_call_vol_steps=7 \
+    ro.modem.no_wdog_chk=1
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
