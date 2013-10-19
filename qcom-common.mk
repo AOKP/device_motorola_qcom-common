@@ -195,7 +195,6 @@ PRODUCT_PACKAGES += libnetcmdiface
 # Symlinks
 PRODUCT_PACKAGES += \
     libxml2 \
-    libxt_native.so \
     mbhc.bin \
     wcd9310_anc.bin \
     WCNSS_qcom_wlan_nv.bin
