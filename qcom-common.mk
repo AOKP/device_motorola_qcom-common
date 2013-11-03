@@ -112,8 +112,9 @@ PRODUCT_PACKAGES += \
     QCOMParts
 
 # Wifi
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/config/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
+PRODUCT_PACKAGES += \
+    p2p_supplicant_overlay.conf \
+    wpa_supplicant_overlay.conf
 
 # Ramdisk
 PRODUCT_PACKAGES += \
