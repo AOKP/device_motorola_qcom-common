@@ -190,6 +190,8 @@ PRODUCT_PACKAGES += \
 
 #wifi
 PRODUCT_PACKAGES += \
+    hostapd.accept \
+    hostapd.deny \
     hostapd_default.conf \
     libnetcmdiface
 
